@@ -71,7 +71,8 @@ exec sql set option commit = *none, closqlcsr = *endmod;
 
 pgmname = 'HTTPGETJS';
 
-url='http://api.weatherstack.com/current?access_key=45adb533dd9e6ea52ccb81accd8bb8bc&query=madrid';
+// Put your own api key. It's free just get yours from https://weatherstack.com
+url='http://api.weatherstack.com/current?access_key=xxxxxxxxxxxxxxxxxxxxxxxxxx&query=madrid';
 
 // http_get returns a CLOB up to 2GB CCSID 1208. In the example it is held in a 10KB CLOB
 exec sql
