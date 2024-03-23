@@ -3,7 +3,7 @@ ctl-opt option(*nodebugio:*srcstmt:*nounref) decedit('0,') bnddir('HTTPAPI':'YAJ
 
 dcl-f httpgetjsd workstn indds(indicators);
 
-/include httpapi_h
+/include 'qrpgleref/httpapi_h'
 /include yajl_h
 
 dcl-ds indicators;
