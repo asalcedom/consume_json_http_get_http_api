@@ -1,6 +1,6 @@
 
 BIN_LIB=ASALCEDO1
-LIBLIST=$(BIN_LIB) LIBHTTP YAJL
+LIBLIST=$(BIN_LIB) LIBHTTP YAJL QGPL
 SHELL=/QOpenSys/usr/bin/qsh
 
 all: httpgetjs.sqlrpgle httpapijs.sqlrpgle
