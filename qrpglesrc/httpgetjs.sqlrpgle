@@ -79,7 +79,7 @@ exec sql
   values (qsys2.http_get(:url))
     into :response;
 
-ifsFile1_name = '/home/asalcedo/common/belgium/weather_http_get.json';
+ifsFile1_name = '/home/asalcedo/common/europe/weather_http_get.json';
 ifsFile1_nl   = %len(%trim(ifsFile1_name));
 ifsFile1_fo   = SQFOVR;
 
