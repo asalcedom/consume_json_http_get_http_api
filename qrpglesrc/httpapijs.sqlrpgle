@@ -93,7 +93,7 @@ jsonString = http_string('GET':url);
 response_data = jsonString;
 response_len  = %len(jsonString);
 
-ifsFile1_name = '/home/asalcedo/common/belgium/weather_http_string.json';
+ifsFile1_name = '/home/asalcedo/common/europe/weather_http_string.json';
 ifsFile1_nl   = %len(%trim(ifsFile1_name));
 ifsFile1_fo   = SQFOVR;
 
